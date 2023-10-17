@@ -42,10 +42,10 @@ pwm.start(0)
 # Email configuration
 smtp_server = "smtp.gmail.com"  # Replace with your SMTP server address
 smtp_port = 587  # Replace with your SMTP server's port (usually 587 for TLS)
-smtp_username = "busslot210@gmail.com"  # Replace with your email address
-smtp_password = "cwsu lwzi cquq maxy"  # Replace with your email password
-sender_email = "busslot210@gmail.com.com"  # Replace with your email address
-receiver_email = "aryansharma772004@gmail.com"  # Replace with the recipient's email address
+smtp_username = ""  # Replace with your email address
+smtp_password = ""  # Replace with your email password
+sender_email = ""  # Replace with your email address
+receiver_email = ""  # Replace with the recipient's email address
 
 # Function to send an email with the captured image attached
 def send_email_with_image(image_filename):
